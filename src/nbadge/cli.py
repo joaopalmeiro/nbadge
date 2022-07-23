@@ -17,7 +17,6 @@ def main(url: str) -> None:
 
     # https://github.com/nephila/giturlparse#exposed-attributes
     p = parse(url)
-
     ref, notebook = p.path.split("/")
 
     binder_badge = BINDER_BASE_BADGE.format(
