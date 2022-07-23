@@ -29,5 +29,8 @@ def main(url: str) -> None:
 
     all_badges = " ".join([binder_badge, colab_badge, deepnote_badge])
 
-    pyperclip.copy(all_badges)
+    click.secho("Badges:", bold=True)
     click.echo(all_badges)
+    pyperclip.copy(all_badges)
+
+    click.echo("\n📋 Copied!")
