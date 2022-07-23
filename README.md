@@ -20,4 +20,4 @@ A Python CLI to generate Jupyter notebook badges for different services.
   - `pdm init`.
   - `pdm add click pyperclip`.
 - [Setup PDM for GitHub Action](https://github.com/marketplace/actions/setup-pdm).
-- [Copier template](https://github.com/pdm-project/copier-pdm).
+- [Copier template](https://github.com/pdm-project/copier-pdm) and [Copier template by pawamoy](https://github.com/pawamoy/copier-pdm).
