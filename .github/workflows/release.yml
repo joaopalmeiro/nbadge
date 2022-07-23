@@ -1,0 +1,26 @@
+# https://github.com/pdm-project/setup-pdm
+# https://github.com/actions/checkout
+
+name: Publish to PyPI
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/nbadge/__init__.py"
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pdm-project/setup-pdm@main
+        name: Setup PDM
+        with:
+          python-version: 3.7
+          version: 2.0.3
+      - name: Install dependencies
+        run: pdm install
+      - name: Publish
+        run: pdm publish -u __token__ -P ${{ secrets.PYPI_API_TOKEN }} -v
