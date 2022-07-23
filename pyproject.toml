@@ -2,7 +2,7 @@
 name = "nbadge"
 dynamic = ["version"]
 description = "A Python CLI to generate Jupyter notebook badges for different services."
-authors = [{ name = "João Palmeiro", email = "jm.palmeiro@campus.fct.unl.pt" }]
+authors = [{ name = "João Palmeiro", email = "joaopalmeiro@proton.me" }]
 dependencies = []
 requires-python = ">=3.7"
 readme = "README.md"
@@ -15,5 +15,5 @@ mycli = "mycli.__main__:main"
 version = { from = "mypackage/__init__.py" }
 
 [build-system]
-requires = ["pdm-pep517>=0.12.0"]
+requires = ["pdm-pep517>=1.0.0"]
 build-backend = "pdm.pep517.api"

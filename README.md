@@ -14,3 +14,8 @@ A Python CLI to generate Jupyter notebook badges for different services.
 - [PEP 582](https://peps.python.org/pep-0582/): Python local packages directory.
 - `eval "$(pdm --pep582)"` ([source](https://pdm.fming.dev/#for-mac-and-linux-users)).
 - [Awesome PDM](https://github.com/pdm-project/awesome-pdm).
+- [PDM](https://pdm.fming.dev/latest/) documentation. [Publish the project to PyPI](https://pdm.fming.dev/latest/usage/project/#publish-the-project-to-pypi). [License](https://peps.python.org/pep-0621/#license).
+- Commands:
+  - `pdm --version`.
+  - `pdm init`.
+  - `pdm add click pyperclip`.
