@@ -30,6 +30,12 @@ requires_python = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 summary = "Cross-platform colored terminal text."
 
 [[package]]
+name = "giturlparse"
+version = "0.10.0"
+requires_python = ">=3.6"
+summary = "A Git URL parsing module (supports parsing and rewriting)"
+
+[[package]]
 name = "importlib-metadata"
 version = "4.12.0"
 requires_python = ">=3.7"
@@ -93,7 +99,7 @@ summary = "Backport of pathlib-compatible object wrapper for zip files"
 
 [metadata]
 lock_version = "4.0"
-content_hash = "sha256:4d5de7bbe4d2ba1c75677e603d2216fcf1a11f68244e485728ee09cab75c2148"
+content_hash = "sha256:2a653db7b47265d877f5d71df62eb8f99150a5e370f527a29479b9d26c287819"
 
 [metadata.files]
 "black 22.6.0" = [
@@ -128,6 +134,10 @@ content_hash = "sha256:4d5de7bbe4d2ba1c75677e603d2216fcf1a11f68244e485728ee09cab
 "colorama 0.4.5" = [
     {url = "https://files.pythonhosted.org/packages/2b/65/24d033a9325ce42ccbfa3ca2d0866c7e89cc68e5b9d92ecaba9feef631df/colorama-0.4.5.tar.gz", hash = "sha256:e6c6b4334fc50988a639d9b98aa429a0b57da6e17b9a44f0451f930b6967b7a4"},
     {url = "https://files.pythonhosted.org/packages/77/8b/7550e87b2d308a1b711725dfaddc19c695f8c5fa413c640b2be01662f4e6/colorama-0.4.5-py2.py3-none-any.whl", hash = "sha256:854bf444933e37f5824ae7bfc1e98d5bce2ebe4160d46b5edf346a89358e99da"},
+]
+"giturlparse 0.10.0" = [
+    {url = "https://files.pythonhosted.org/packages/70/ad/4526ec3dde02eddbc1b860bd0861a770b95bdb95f5fae30f26f3d587ca7d/giturlparse-0.10.0.tar.gz", hash = "sha256:2595ab291d30717cda8474b874c9fd509f1b9802ad7f6968c36a45e4b13eb337"},
+    {url = "https://files.pythonhosted.org/packages/a2/01/baa326ad32510acd3f08835e1b9f3c66170ddf7dfcc233640ff22d0ea619/giturlparse-0.10.0-py2.py3-none-any.whl", hash = "sha256:04ba1a3a099c3093fa8d24a422913c6a9b2c2cd22bcffc939cf72e3e98f672d7"},
 ]
 "importlib-metadata 4.12.0" = [
     {url = "https://files.pythonhosted.org/packages/1a/16/441080c907df829016729e71d8bdd42d99b9bdde48b01492ed08912c0aa9/importlib_metadata-4.12.0.tar.gz", hash = "sha256:637245b8bab2b6502fcbc752cc4b7a6f6243bb02b31c5c26156ad103d3d45670"},
