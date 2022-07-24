@@ -1,5 +1,6 @@
 # https://github.com/pdm-project/setup-pdm
 # https://github.com/actions/checkout
+# https://github.com/pypa/gh-action-pypi-publish
 
 name: Publish to PyPI
 
