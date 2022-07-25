@@ -21,6 +21,7 @@ A Python CLI to generate Jupyter notebook badges for different services.
   - `pdm --version`.
   - `pdm init`.
   - `pdm config python.use_venv False` and `pdm install`.
+  - `pdm config python.use_venv True` and `pdm install`.
   - `pdm add click pyperclip`.
   - `pdm add -dG format black isort`.
   - `pdm build --no-isolation --verbose`.
