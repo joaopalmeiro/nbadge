@@ -20,10 +20,11 @@ A Python CLI to generate Jupyter notebook badges for different services.
 - Commands:
   - `pdm --version`.
   - `pdm init`.
-  - `pdm install`.
+  - `pdm config python.use_venv False` and `pdm install`.
   - `pdm add click pyperclip`.
   - `pdm add -dG format black isort`.
   - `pdm build --no-isolation --verbose`.
 - [Setup PDM for GitHub Action](https://github.com/marketplace/actions/setup-pdm).
 - [Copier template](https://github.com/pdm-project/copier-pdm) and [Copier template by pawamoy](https://github.com/pawamoy/copier-pdm).
 - [giturlparse](https://github.com/nephila/giturlparse) package.
+- `curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 - -v 2.0.2`.
