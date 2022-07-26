@@ -1,6 +1,7 @@
 # https://github.com/pdm-project/setup-pdm
 # https://github.com/actions/checkout
 # https://github.com/pypa/gh-action-pypi-publish
+# https://github.com/pdm-project/pdm/commit/06f7fe7f0cf889c78e6d12b0eda256c0256e9649
 
 name: Publish to PyPI
 
@@ -16,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: pdm-project/setup-pdm@main
+      - uses: pdm-project/setup-pdm@v2
         name: Setup PDM
         with:
           python-version: 3.7
