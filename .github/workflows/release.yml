@@ -21,15 +21,17 @@ jobs:
         name: Setup PDM
         with:
           python-version: 3.7
-          version: 2.0.3
+          version: 2.1.0
       - name: Install dependencies
         run: pdm install
-      - name: Build
-        run: pdm build --no-isolation --verbose
-      - name: Publish
-        uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          user: __token__
-          password: ${{ secrets.PYPI_API_TOKEN }}
-          verbose: true
-          packages_dir: dist/
+      # - name: Build
+      #   run: pdm build --no-isolation --verbose
+      # - name: Publish
+      #   uses: pypa/gh-action-pypi-publish@release/v1
+      #   with:
+      #     user: __token__
+      #     password: ${{ secrets.PYPI_API_TOKEN }}
+      #     verbose: true
+      #     packages_dir: dist/
+      - name: Build and publish
+        run: pdm publish -u __token__ -P ${{ secrets.PYPI_API_TOKEN }}
