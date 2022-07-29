@@ -4,4 +4,4 @@
     A Python CLI to generate Jupyter notebook badges for different services.
 """
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"

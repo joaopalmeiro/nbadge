@@ -11,6 +11,10 @@ license = { text = "MIT" }
 [project.scripts]
 nbadge = "nbadge.cli:main"
 
+[project.urls]
+Repository = "https://github.com/joaopalmeiro/nbadge"
+Homepage = "https://github.com/joaopalmeiro/nbadge"
+
 [tool.pdm]
 version = { source = "file", path = "src/nbadge/__init__.py" }
 

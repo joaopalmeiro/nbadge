@@ -11,6 +11,14 @@ A Python CLI to generate Jupyter notebook badges for different services.
 - [Making Jupyter notebooks Google Colab ready](https://timsainburg.com/google%20colab.html) blog post by Tim Sainburg.
 - [Open in Colab](https://openincolab.com/) website.
 
+## Development
+
+- `pdm config python.use_venv False` + `pdm config python.use_venv`
+- `pdm install`
+- `pdm run nbadge --help`
+- `pdm run nbadge https://github.com/feedzai/feedzai-altair-theme/blob/master/demo.ipynb`
+- `pdm run black .` + `pdm run isort .`
+
 ## Notes
 
 - [PEP 582](https://peps.python.org/pep-0582/): Python local packages directory.
