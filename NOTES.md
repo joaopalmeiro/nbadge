@@ -38,7 +38,7 @@
   - URL: https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/colab-github-demo.ipynb
   - Badge image: https://colab.research.google.com/assets/colab-badge.svg
   - Badge label: Open In Colab
-- [Making Jupyter notebooks Google Colab ready](https://timsainburg.com/google%20colab.html) blog post by Tim Sainburg.
+- [Making Jupyter notebooks Google Colab ready](https://timsainburg.com/google%20colab.html) blog post by Tim Sainburg
   - https://colab.research.google.com/github/MYUSERNAME/MYREPOSITORY/blob/MYBRANCH/PATH/TO/MYNOTEBOOK.ipynb
 - https://github.com/WongKinYiu/yolov9/blob/5b1ea9a8b3f0ffe4fe0e203ec6232d788bb3fcff/README.md
 - https://github.com/roboflow/notebooks/blob/dfd4e108a56b7d0fb116577d4cac02155a185422/README.md
