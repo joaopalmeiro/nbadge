@@ -38,6 +38,17 @@
 - https://mybinder.org/v2/gh/feedzai/feedzai-altair-theme/master?filepath=/demo.ipynb
 - https://discourse.jupyter.org/t/unable-to-launch-jupyter-on-binder/19102/16
 - https://github.com/jupyter-widgets/ipywidgets/blob/c579fcd1265af77a0d793aa47a7b9a401d952550/README.md
+- https://github.com/jupyter-widgets/ipywidgets/tree/c579fcd1265af77a0d793aa47a7b9a401d952550/.binder
+- https://github.com/jupyterlab/jupyterlab-demo/blob/24a396b12aa0ffbff6360125759585bd13916127/.binder/postBuild
+- https://github.com/jupyterlab/jupyterlab-demo/blob/24a396b12aa0ffbff6360125759585bd13916127/.binder/postBuild
+- https://mybinder.readthedocs.io/en/latest/introduction.html#how-can-i-prepare-a-repository-for-binder
+- https://mybinder.readthedocs.io/en/latest/using/config_files.html:
+  - https://mybinder.readthedocs.io/en/latest/using/config_files.html#setup-py-install-python-packages
+  - https://mybinder.readthedocs.io/en/latest/using/config_files.html#pipfile-and-or-pipfile-lock-install-a-python-environment
+  - https://mybinder.readthedocs.io/en/latest/using/config_files.html#runtime-txt-specifying-runtimes
+  - https://mybinder.readthedocs.io/en/latest/using/config_files.html#postbuild-run-code-after-installing-the-environment
+- https://github.com/pyinvoke/invoke
+- https://mybinder.org/v2/gh/joaopalmeiro/nbadge/main?filepath=/NOTES.md
 
 ```markdown
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/feedzai/feedzai-altair-theme/master?labpath=demo.ipynb)
