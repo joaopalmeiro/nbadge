@@ -4,6 +4,18 @@
 
 A Python CLI to generate Jupyter notebook badges for different services.
 
+## Usage
+
+### Via [pipx](https://github.com/pypa/pipx)
+
+```bash
+pipx run nbadge --help
+```
+
+```bash
+pipx run nbadge
+```
+
 ## References
 
 - [Add a direct Binder link for built HTML notebooks](https://ericmjl.github.io/blog/2020/9/12/add-a-direct-binder-link-for-built-html-notebooks/) blog post by Eric J. Ma.
