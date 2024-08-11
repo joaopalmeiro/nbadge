@@ -6,8 +6,6 @@
 # urlpath=lab/tree/ or labpath=
 BINDER_BASE_BADGE: str = "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/{owner}/{repo}/{ref}?labpath={notebook})"
 
-# https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb
-# https://timsainburg.com/google%20colab.html
 COLAB_BASE_BADGE: str = "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/{owner}/{repo}/blob/{ref}/{notebook})"
 
 # https://github.com/SuNaden/deepnote-launch-example
