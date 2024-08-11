@@ -2,7 +2,7 @@
 
 [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
 
-A Python CLI to generate Jupyter notebook badges for different services.
+Generate badges from Jupyter notebooks hosted on GitHub for different services.
 
 ## Usage
 

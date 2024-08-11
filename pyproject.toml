@@ -1,7 +1,7 @@
 [project]
 name = "nbadge"
 dynamic = ["version"]
-description = "A Python CLI to generate Jupyter notebook badges for different services."
+description = "Generate badges from Jupyter notebooks hosted on GitHub for different services."
 authors = [{ name = "João Palmeiro", email = "joaopalmeiro@proton.me" }]
 dependencies = ["click>=8.1.3", "pyperclip>=1.8.2", "giturlparse>=0.10.0"]
 requires-python = ">=3.7"
